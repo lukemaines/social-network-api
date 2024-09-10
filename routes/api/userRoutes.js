@@ -1,5 +1,3 @@
-const { get } = require('.');
-
 const router = require('express').Router();
 const {
     getUsers, 

@@ -1,5 +1,4 @@
-const { Thought, User } = require('../../models');
-const { rawListeners } = require('../models/User');
+const { Thought, User } = require('../models');
 
 const getThoughts = async (req, res) => {
     try {
